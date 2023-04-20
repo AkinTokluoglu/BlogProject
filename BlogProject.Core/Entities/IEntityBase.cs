@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogProject.Core.Entities
 {
-    internal interface IEntityBase
+    public interface IEntityBase
     {
     }
 }
