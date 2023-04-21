@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogProject.Entity.Entities
 {
-    public class Image : EntityBase, IEntityBase
+    public class Image : EntityBase
     {
         public Guid Id { get; set; }
         public string FileName { get; set; }

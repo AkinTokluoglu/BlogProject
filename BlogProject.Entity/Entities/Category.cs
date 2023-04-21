@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogProject.Entity.Entities
 {
-    public class Category : EntityBase, IEntityBase
+    public class Category : EntityBase
     {
         public Guid Id { get; set; }
         public String Name { get; set; }
